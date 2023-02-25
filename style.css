@@ -5,6 +5,7 @@
 }
 * a{
     text-decoration: none;
+    color: #0079d3;
 }
 .container{
     height: 100vh;
@@ -29,6 +30,8 @@ body{
 }
 label{
     display: flex;
+    padding: 5px;
+    margin: 5px;
 }
 h1{
     text-align: left;
@@ -40,5 +43,43 @@ h1{
 .para{
     margin-top: 8px;
     margin-bottom: 48px;
+    font-size: 13px;
+}
+button{
+    border: 1px solid #dadce0;
+    background-color: #fff;
+    cursor: pointer;
+    letter-spacing: 0.25px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 25px;
+    width: 300px;
+    color: #20212;
+}
+
+
+button:hover{
+    background-color: #f3faff;
+    border: 1px solid #b4c5ff;
+}
+
+.intext{
+    font-weight: 600;
+    color: #3c4043;
+    font-size: 14.2px;
+    font-family: sans-serif;
+}
+
+#login_button{
+    border-radius: 4px;
+    background-color: #0079d3;
+    color: white;
+}
+#login_button:hover{
+    background-color: #3394dc;
+
+}
+p{
+    padding: 6px;
     font-size: 13px;
 }
