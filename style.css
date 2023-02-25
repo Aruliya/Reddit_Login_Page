@@ -1,7 +1,7 @@
 *{
     box-sizing: border-box;
     margin:0;
-    font-family: sans-serif;
+    font-family:'IBM Plex Sans', sans-serif;
 }
 * a{
     text-decoration: none;
@@ -33,6 +33,12 @@ label{
     padding: 5px;
     margin: 5px;
 }
+
+img{
+    height: 23px;
+    width: 23px;   
+    
+}
 h1{
     text-align: left;
 }
@@ -54,7 +60,11 @@ button{
     margin: 5px;
     border-radius: 25px;
     width: 300px;
-    color: #20212;
+    color: #202124;
+    display: flex;
+    flex-direction: row;
+    
+    
 }
 
 
@@ -64,10 +74,12 @@ button:hover{
 }
 
 .intext{
-    font-weight: 600;
+    font-weight: 500;
     color: #3c4043;
     font-size: 14.2px;
-    font-family: sans-serif;
+    
+    
+    
 }
 
 #login_button{
@@ -83,3 +95,25 @@ p{
     padding: 6px;
     font-size: 13px;
 }
+#username{
+    padding: 22px 12px 10px;
+    border: 1px solid rgba(0,0,0,.1);
+    border-radius: 4px;
+    width: 300px;
+    background-color: #fcfcfb;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+}
+#password{
+    padding: 22px 12px 10px;
+    border: 1px solid rgba(0,0,0,.1);
+    border-radius: 4px;
+    width: 300px;
+    background-color: #fcfcfb;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+   
+}
+
