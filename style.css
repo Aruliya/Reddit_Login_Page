@@ -42,9 +42,7 @@ img{
 h1{
     text-align: left;
 }
-.or{
-    margin-left: 150px;
-}
+
 .para{
     margin-top: 8px;
     margin-bottom: 48px;
@@ -93,6 +91,7 @@ button:hover{
     font-weight: 500;
     color: #3c4043;
     font-size: 14.2px;
+    
 
 }
 
@@ -131,6 +130,7 @@ p{
     font-family: 'Noto Sans', sans-serif;
     font-size: 11px;
     font-weight: 600;
+    outline: none;
 }
 #password{
     padding: 22px 12px 10px;
@@ -141,16 +141,60 @@ p{
     font-family: 'Noto Sans', sans-serif;
     font-size: 11px;
     font-weight: 600;
+    outline: none;
    
 }
+
+#username:active{
+    border-color: #0079d3;
+    
+}
+
+#password:active{
+    border-color: #0079d3;
+}
+
+
+
 .or{
     color: #878a8c;
     font-size: 14px;
     font-weight: 500;
     line-height: 18px;
-    
-}
-.or >span{
-    justify-content: center;
+    position: relative;
+    /*margin-left: 150px;*/
+    padding-left: 150px;
+    margin-top: 28px;
+    margin-bottom: 28px;
 
 }
+
+.or::before{
+    content: "";
+    display: block;
+    width: 130px;
+    height: 0.5px;
+    background-color:rgb(227, 227, 227) ;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-left:;
+
+}
+
+.or::after{
+    content: "";
+    display: block;
+    width: 50px;
+    height: 0.5px;
+    background-color:rgb(227, 227, 227) ;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    padding-left: 80px;
+    margin-right: 80px;
+
+}
+
+
+
